@@ -139,6 +139,7 @@ ul li::before{
         text-align: left;
     }
     .email-phn{
+        border-radius: 5px;
         color: #FFFFFF;
     }
     .bonus{
