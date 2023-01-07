@@ -1,0 +1,137 @@
+
+
+.header-top{
+    text-align:  right;
+    padding: 200px;
+    height: 500px;
+    width: 200px;
+    margin-top:20px ;
+    margin-left:800px ;
+    margin-right:200px ;
+    margin-bottom:24px ;
+    
+}
+.header-title{
+    font-size: 40px;
+}
+
+.header{
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-primary{
+    background: #f11414ef;
+    height: 30px;
+    width: 100px;
+}
+.middle{
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+}
+ul li::before{
+    content: '✓';
+    
+}
+.middle-all-text{
+    text-align:  left;
+    padding: 120px;
+    height: 100px;
+    width: 500px;
+    margin-top:150px ;
+    margin-left:20px ;
+    margin-right:200px ;
+    margin-bottom:24px ;
+
+}
+
+.plan-container{
+    margin: top 20px; ;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-header{
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.watch{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    .watch-details{
+        padding-left: 20px;
+
+    }
+    .watch-title{
+        color: #FFF8F3;
+    }
+
+    .button2{
+        color: #F15B22;
+        background-color: #FFFFFF;
+        
+        
+    }
+
+    /* contact styles */
+    .contact{
+        display: flex;
+        gap: 200px;
+        background-color: #151414;
+        padding: 100px 200px;
+    }
+    .contact input[type="email"]{
+        margin-bottom: 24px;
+        border: 0;
+        width: 100%;
+        background: #151414;
+        float: 18px 10px;
+        
+    }
+    .section-title{
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .btn-Subscribe{
+        color: #F15B22;
+        background: #FFF8F3;
+    }
+    .section-description{
+        color: #FFFFFF;
+        width: 480px;
+        height: 70px;
+        text-align: left;
+    }
+    .email-phn{
+        color: #FFFFFF;
+    }
+    .bonus{
+        display: flex;
+        height: 50%;
+        width: auto;
+        
+        
+    }
+    .bonus-all-text{
+    text-align:  left;
+    padding: 60px;
+    height: 100px;
+    width: 500px;
+    margin-top:60px ;
+    margin-left:20px ;
+    margin-right:200px ;
+    margin-bottom:24px ;
+    }
+    
