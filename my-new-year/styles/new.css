@@ -21,9 +21,11 @@
     background-repeat: no-repeat;
 }
 .btn-primary{
+    width: 85px;
+    height: 35px;
     background: #f11414ef;
-    height: 30px;
-    width: 100px;
+    border-radius: 5px;
+    border: 0;
 }
 .middle{
     display: flex;
@@ -65,20 +67,39 @@ ul li::before{
 }
 
 .watch{
-    background-image: url(../images/watch.png);
+    
+    /*background-image: url(../images/watch.png);*/
+    background: linear-gradient(
+    to  right,
+    rgba(204, 71, 30, 0.596),
+    rgba(200, 221, 7, 0.356)
+  ),url(../images/watch.png);
+    
+    
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 100px;
     margin-right: 100px;
+    
     }
     .watch-details{
+        padding-top: 40px;
         padding-left: 20px;
 
     }
     .watch-title{
+        padding-top: 10px;
+        border: 0;
+        border-radius: 5px;
         color: #FFF8F3;
     }
 
     .button2{
+        width: 85px;
+        height: 35px;
+        margin-bottom: 200px;
+        border-radius: 5px;
+         border: 0;
         color: #F15B22;
         background-color: #FFFFFF;
         
@@ -87,10 +108,11 @@ ul li::before{
 
     /* contact styles */
     .contact{
+        margin-top: 60px;
         display: flex;
         gap: 200px;
         background-color: #151414;
-        padding: 100px 200px;
+        padding: 50px 200px;
     }
     .contact input[type="email"]{
         margin-bottom: 24px;
@@ -105,6 +127,8 @@ ul li::before{
         text-align: left;
     }
     .btn-Subscribe{
+        width: 85px;
+        height: 35px;
         color: #F15B22;
         background: #FFF8F3;
     }
